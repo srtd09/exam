@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.Fvideoback{
+  background-color:#ffffff;
+}
+.Fvideo{
+  width: 1500px;
+  height:auto;
+}
+.fontsize1 {
+  font-size: 120px;
+}
+.fontsize2{
+  font-size: 80px;
+}
+.fontposition1{
+  text-align:center
+}
+.fontposition2{
+  text-align:left;
+  padding-left: 40px;
+}
+.dougaposition{
+  text-align:center;
+}
+.backB{
+  backgroud-color: black;
+}

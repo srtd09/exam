@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.anim-box {
+  border-radius: 5px;
+  max-width: 400px;
+  height: 250px;
+  font-size: 23px;
+  padding-top: 390px
+}
+
+@keyframes slidein{
+  0%   { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0);    opacity: 1; }
+}
+.slidein {
+  animation: slidein 0.6s ease-out forwards;
+}
