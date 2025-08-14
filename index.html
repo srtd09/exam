@@ -21,10 +21,15 @@
   <link rel="stylesheet" href="anim-box.css">
   <link rel="stylesheet" href="fontsize1.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="loading.css">
 </head>
-  <div id="loading">
-    <span>loading…</span>
+<div id="loading" aria-live ="polite" aria-busy="true">
+  <div class="loader">
+   <div class="spinner" aria-hidden="true"></div>
+  <p class="logo">Loading…</p>
   </div>
+</div>
+
 <body bgcolor="black" text="white">
   <section id="section1">
 <div class="Fvideoback" style="text-align: center;">
@@ -88,6 +93,6 @@
     <p class="fontposition2" style="padding-top:200px; font-size:30px;">EIGHTBIT Co.,Ltd.</p>
     <p class="fontposition2" style="font-size:15px;">Hareza Tower 20F,<br>1-18-1 Higashi-Ikebukuro,<br>Toshima-ku, Tokyo, Japan<br>+81) 03-5823-3930</p>
   </div>
+  <script src="loading.js" defer></script>
 </body>
-
 </html>
